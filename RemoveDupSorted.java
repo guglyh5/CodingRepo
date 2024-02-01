@@ -64,10 +64,10 @@ class RemoveDupSorted{
         return i+1;
 
     }
-    public static void main ()
+    public static void main (String[] args)
     {
         int nums[] = {-1,0,2,3,4,4,5,5,5};
-        int k = removeDuplicates()
-        System.out.println(" Returned output is: "+ k)
+        int k = removeDuplicates(nums);
+        System.out.println(" Returned output is: "+ k);
     }
 }
