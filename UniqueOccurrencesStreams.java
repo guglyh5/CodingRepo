@@ -22,6 +22,11 @@ Constraints:
 1 <= arr.length <= 1000
 -1000 <= arr[i] <= 1000*/
 
+import java.util.Arrays;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
 class UniqueOccurrencesStreams {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Long> frequencyMap = Arrays.stream(arr)
