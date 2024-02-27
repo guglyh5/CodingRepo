@@ -1,3 +1,4 @@
+package Code.src;
 class GCDStrings{
 
     public static String gcdOfStrings( String a, String b){
