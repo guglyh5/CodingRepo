@@ -50,3 +50,5 @@ public class CountOccurrencesString {
   
         return count;
 }
+
+}

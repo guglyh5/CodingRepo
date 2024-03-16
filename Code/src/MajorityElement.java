@@ -50,23 +50,14 @@ public class MajorityElement {
 	            }
 	            
 	        }
-	        int c = 0;
-	        for(int i = 0;i<nums.length;i++)
-	        {
-	            if(nums[ansIndex]==nums[i])
-	            {
-	                c++;
-	            }
-	        }
+	        
 	        
 	        
 	        	return nums[ansIndex];
-	        //return (c>(nums.length/2))?nums[ansIndex]:-1;
-	    }
+	}
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = {2,2,1,1,1,2,2};
 		System.out.println(majorityElement(nums));
 	}
