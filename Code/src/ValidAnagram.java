@@ -25,7 +25,7 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 package Code.src;
 
 class ValidAnagram {
-    public boolean isAnagram(String s, String t) {
+    public static boolean isAnagram(String s, String t) {
         int[] freq = new int[26];
         if (s.length()!=t.length())
         return false;
@@ -49,6 +49,6 @@ class ValidAnagram {
     }
     public static void main(String[] args)
     {
-        System.out.println(isAnagram("anagram","nagaram").toString());
+        System.out.println(isAnagram("anagram","nagaram"));
     }
 }

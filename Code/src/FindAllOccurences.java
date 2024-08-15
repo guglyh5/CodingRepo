@@ -5,7 +5,7 @@ package Code.src;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindOccur {
+class FindOccur {
 	
 	public static Map<Character, Integer> findOccur( String s)
 	{

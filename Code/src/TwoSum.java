@@ -1,3 +1,6 @@
+package Code.src;
+
+import java.util.HashMap;
 
 /*
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -34,7 +37,7 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity? 
 */
 class TwoSum {
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
 
         for(int i=0;i<nums.length;i++)
@@ -49,5 +52,12 @@ class TwoSum {
             }
         }
         return null;
+    }
+    public static void main(String[] args)
+    {
+        int[] array = {3,4,0,1,10,2,8};
+        int target = 9;
+        int[] result = twoSum(array,target);
+        System.out.println(result[0]+ "  ***  "+ result[1]);
     }
 }
